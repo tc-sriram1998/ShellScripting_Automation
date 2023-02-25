@@ -1,7 +1,7 @@
 #!/bin/bash
-cd /Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/ShellScripting_Automation
+cd /home/claymore/ShellScripting_Automation
 
-find . -type f -mtime -2 -exec cp '{}' /Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/ShellScripting_Automation/Log_Backup \;
+find . -type f -mtime -2 -exec cp '{}' /home/claymore/ShellScripting_Automation/Log_Backup \;
 
 cd /home/claymore/ShellScripting_Automation/Log_Backup
 
